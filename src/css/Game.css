@@ -1,0 +1,131 @@
+.GameMainContainer{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 100%;
+    width: 100%;
+    border: 4px solid white;
+    text-align: center;
+    background-image: url('../Images/Ingame-Background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Upper container which contains game timer */
+.GameTopContainer{
+    padding: 5px;
+}
+.GameTopContainerTotalTimer{
+    color: white;
+    font-size: 20px;
+    text-align: right;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-right: 4%;
+}
+
+/* Secondary container which contains Left,Mid,Right containers */
+.GameSecondaryContainer{
+    position: relative;
+    border-color: 3px solid white;
+    display: flex;
+    justify-content: space-around;    
+}
+
+/* Left Container */
+.GameLeftContainer{
+    border: 3px solid   black;
+    display: unset;
+    padding: 2%;
+    background-color: rgba(0,0,0, 0.3);
+
+}
+.GameLeftFirst{
+ color: white;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ font-weight: bold;
+
+}
+.GameLeftSecond{
+    margin-bottom: 10%;
+}
+.GameLeftThird{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.imgRedPLayer{
+    max-width: 200px;
+    max-height: 200px;
+}
+.imgYellowPlayer{
+    max-width: 200px;
+    max-height: 200px;
+}
+
+/* Mid container which contains turns management and the board */
+
+.GameMidContainerFirst{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 3px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-left:3px solid rgba(0, 0,0, 0.9);
+    border-top:3px solid rgba(0, 0,0, 0.9);
+    border-right:3px solid rgba(0, 0,0, 0.9);
+}
+.GameTableroContainer{
+    position: relative;
+    border: 3px solid black;
+    display: block;
+}
+.GameMidContainerThird{
+    text-align: center;
+    color: red;
+    font-size: 30px;
+    background-color:  rgba(0, 0, 0, 0.3);;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-left:3px solid rgba(0, 0,0, 0.9);
+    border-bottom:3px solid rgba(0, 0,0, 0.9);
+    border-right:3px solid rgba(0, 0,0, 0.9);
+
+}
+
+/* Right container which contains buttons */
+.GameRightContainer{
+    display: flex;
+    align-items: flex-end;
+}
+.GameRigtUnique{
+    display: flex;
+}
+.GameRigtFirst{
+    margin-right: 2.5px;
+}
+.GameRightSecond{
+    margin-left: 2.5px;
+}
+.btnReset{
+    width: 100%;
+    background-color: rgb(58, 131, 240);
+    color: white;
+    margin:4px ;
+    border-radius: 7px;
+    padding: 5px;
+}
+.btnLeaveGame{
+    width: 100%;
+    background-color: rgb(58, 131, 240);
+    color: white;
+    margin:4px ;
+    border-radius: 7px;
+    padding: 5px;
+}
+
+
+
+

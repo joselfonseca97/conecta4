@@ -1,0 +1,101 @@
+/*Main Container*/
+.MenuMainContainer{
+    position:absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width: 100%;
+        height: 100%;
+        background-image: url('../Images/Ingame-Background.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+
+/*Main Title container*/
+.MenuUpperContainer{
+        color: white;
+        text-align: center;
+        font-size: 50px;
+        font-family:Arial;
+        font-weight: bold;
+        padding: 1.5%;
+        
+}
+
+/*Subtittle*/
+.MenuSubTittle{
+        color: white;
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 23px;
+        padding:1%;
+        font-weight: bold;
+}
+
+
+/*Container that contains the main elements, imputs, radio buttons*/
+.MenuSecondaryContainer{
+        text-align: center;
+        padding: 50px;
+        background-color: rgba(0, 0, 0, 0.3);
+        
+}
+
+.MenuThirdContainer{
+        position: relative;
+        padding:3%;
+        padding-right: 30%;
+        padding-left: 30%;
+}
+.MenuLbl2{
+        color: white;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 17px;
+        font-weight: bold;
+        padding:2%;
+        margin-bottom: 0.5%;
+        background-color: rgba(0, 0, 0, 0.4);
+
+}
+.MenuRadioButtons{
+        text-align: center;
+        color: white;
+        padding:2%;
+        margin-bottom: 0.5%;
+        background-color: rgba(0, 0, 0, 0.5);
+}
+.MenuComboBox{
+        padding:2%;
+        background-color: rgba(0, 0, 0, 0.5);
+}
+.option{
+        background-color:white;
+        color: black;
+}
+.optionMain{
+        background-color: rgba(0, 0, 0, 0.4);
+        color: white;
+}
+
+/*container that contains buttons*/
+.MenuBtns{
+        position: relative;
+        text-align: center;
+        padding: 1%;
+        margin-left: 3px;
+        background-color: rgba(0, 0, 0, 0.6);
+}
+.btnStartGame{
+        background-color: rgb(58, 131, 240);
+        color: white;
+        margin:4px ;
+        border-radius: 7px;
+        padding: 5px;
+}       
+.btnSignOff{
+        background-color: rgb(58, 131, 240);
+        color: white;
+        margin:4px ;
+        border-radius: 7px;
+        padding: 5px;
+}
